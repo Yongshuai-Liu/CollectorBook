@@ -9,6 +9,7 @@ namespace CollectorBook.Controllers
 {
     public class HomeController : Controller
     {
+        //init
         public IActionResult Index()
         {
             return View();
